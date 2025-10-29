@@ -20,17 +20,23 @@ Use this checklist to verify all Phase 1 requirements are met before submission.
 
 ---
 
-### 2. Mini-RFC Draft (Sections 1-3)
+### 2. Mini-RFC Draft (All 9 Sections)
 
 - [x] **File created:** `docs/mini-rfc.md`
-- [x] **Section 1 - Introduction:** Purpose, design goals, scope
-- [x] **Section 2 - Protocol Architecture:** System components, communication model
-- [x] **Section 3 - Message Formats:** Header table and field specifications
-- [x] **Header table present:** 12-byte header with all fields documented
-- [x] **Sample messages included:** Hex dumps with explanations
-- [x] **Page count:** ~2.2 pages (under 3-page limit)
+- [x] **Section 1 - Introduction:** Purpose, design goals, assumptions, constraints
+- [x] **Section 2 - Protocol Architecture:** Entities, FSM, packet flow diagrams
+- [x] **Section 3 - Message Formats:** Header table with byte offsets and struct packing
+- [x] **Section 4 - Communication Procedures:** Session start, data exchange, error recovery
+- [x] **Section 5 - Reliability & Performance:** Loss tolerance, duplicate handling, reordering
+- [x] **Section 6 - Experimental Evaluation Plan:** Test scenarios, metrics, netem commands
+- [x] **Section 7 - Example Use Case Walkthrough:** End-to-end trace with timestamps
+- [x] **Section 8 - Limitations & Future Work:** Honest assessment of weaknesses
+- [x] **Section 9 - References:** RFCs, tools, libraries, academic papers
+- [x] **Header table present:** Complete with byte offsets and struct format
+- [x] **Sample messages included:** Hex dumps with detailed breakdowns
+- [x] **struct.pack format documented:** `!BBHII` for header, `!Bf` for readings
 
-**Action:** No changes needed. File is complete.
+**Action:** Review the complete Mini-RFC at `docs/mini-rfc.md`. All 9 required sections are now included.
 
 ---
 
