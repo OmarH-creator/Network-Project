@@ -2,6 +2,14 @@
 
 A lightweight, UDP-based telemetry protocol designed for constrained IoT sensors. TinyTelemetry enables periodic transmission of small sensor readings (temperature, humidity, voltage) from distributed sensor clients to a central collector server.
 
+## 🎓 New to TinyTelemetry?
+
+**Start here:** Check out the **[Guides/](Guides/)** folder for beginner-friendly tutorials!
+
+- **[Guides/QUICK_START.md](Guides/QUICK_START.md)** - Get running in 5 minutes
+- **[Guides/HOW_TO_USE_FOR_DUMMIES.md](Guides/HOW_TO_USE_FOR_DUMMIES.md)** - Complete beginner's guide
+- **[Guides/FILE_GUIDE.md](Guides/FILE_GUIDE.md)** - What every file does
+
 ## Demo Video
 
 A 5-minute demonstration of TinyTelemetry v1.0 is available here:
