@@ -1,0 +1,11 @@
+# TinyTelemetry v1.0 Dependencies
+
+# Core dependencies (beyond standard library)
+matplotlib>=3.5.0  # For visualization and plotting
+
+# Optional dependencies
+psutil>=5.9.0  # For CPU profiling (optional)
+
+# Development dependencies (for testing)
+pytest>=7.0.0
+pytest-cov>=3.0.0
