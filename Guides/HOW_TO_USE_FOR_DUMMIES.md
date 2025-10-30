@@ -16,7 +16,7 @@
 8. [Submitting Phase 1](#submitting-phase-1)
 9. [Troubleshooting](#troubleshooting)
 
-**💡 Tip:** For visual diagrams and illustrations, see `../docs/simple-diagrams.md`!
+**💡 Tip:** For visual diagrams and illustrations, see `../Guides/simple-diagrams.md`!
 
 **📚 All guides are in the `guides/` folder** - You're reading one now!
 
